@@ -1,0 +1,21 @@
+header{
+    background-image: url(./img/header.jpg);
+    height: 350px;
+    background-size: cover;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.about-container{
+    display: flex;
+    flex: row;
+
+}
+
+/* Houses */
+.house-item{
+    background-color: #dedede;
+}
