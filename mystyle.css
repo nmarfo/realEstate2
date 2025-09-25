@@ -1,21 +1,107 @@
-header{
-    background-image: url(./img/header.jpg);
-    height: 350px;
-    background-size: cover;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: white;
+* {
+  padding: 0px;
+  margin: 0px
 }
 
-.about-container{
-    display: flex;
-    flex: row;
+.header-init{
+  color: white;
+  background-image: url(./img/header.jpg);
+  height: 350px;
+  background-size: cover;
+  text-align: center;
+}
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img{
+  max-width:100%;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.field{
+  display:flex;
+  justify-content: space-around;
 }
 
 /* Houses */
-.house-item{
-    background-color: #dedede;
+.houses-container {
+  display: flex;
+  flex-direction: row;
+}
+.house-item {
+  background-color: #dedede;
+}
+
+.icons-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+/*contact*/
+
+.header-contact{
+  background-color: orange;
+  height: 100px;
+}
+
+.contact-txt{
+  text-align: center;
+}
+
+form{
+  width: 80%;
+  margin: 50px auto;/*tb lr*/
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+fieldset{
+  padding: 10px;
+  border-radius: 10px;
+  border:1px solid gray;
+}
+
+.input-container{
+  margin:20px;
+}
+
+.input-container label{
+  display: inline-block;
+  width:100px;
+}
+.input-container input,
+.input-container textarea{
+  width:80%;
+  padding: 5px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  padding:10px;
+}
+
+.cr-links{
+  display: flex;
+}
+.pp{
+  border-left: 3px solid black;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.sm a{
+  margin-right: 10px;
+  color:black;
+}
+.price-color{
+    color: rgb(212, 15, 15);
 }
